@@ -71,7 +71,7 @@ function paraphraseContent($content, $paraphrases) {
 
 function generateHTMLFile($keyword, $templateFile, $generatePerFolder, $generateRobotsTxt, $generateSitemap, $generateGoogleVerification, $robotsTxtFile, $sitemapFile, $googleVerificationFile, $outputFormat, $enableParaphrase, $paraphrases, $keepImageInRoot, $gambarFormat, $formatRefferal)
 {
-    $outputFolder = str_replace(' ', '&','%', '-', $keyword);
+    $outputFolder = str_replace(' ', '&', $keyword);
 
     // Ubah keyword menjadi huruf kapital
     $title = ucwords($keyword);
